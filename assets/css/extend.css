@@ -1,0 +1,102 @@
+@media screen and (min-width:768px){
+	.smFz12{ font-size: 12px; }
+	.smFz13{ font-size: 13px; }
+	.smFz14{ font-size: 14px; }
+	.smFz15{ font-size: 15px; }
+	.smFz16{ font-size: 16px; }
+	.smFz18{ font-size: 18px; }
+	.smFz20{ font-size: 20px; }
+	.smFz21{ font-size: 21px; }
+	.smFz22{ font-size: 22px; }
+	.smFz24{ font-size: 24px; }
+	.smFz28{ font-size: 28px; }
+	.smFz30{ font-size: 30px; }
+	.smFz32{ font-size: 32px; }
+	.smFz34{ font-size: 34px; }
+	.smFz36{ font-size: 36px; }
+	.smFz38{ font-size: 38px; }
+	.smFz40{ font-size: 40px; }
+	.smFz42{ font-size: 42px; }
+	.smFz46{ font-size: 46px; }
+	.smFz48{ font-size: 48px; }
+	.smFz52{ font-size: 52px; }
+	.smFz54{ font-size: 54px; }
+	.smFz56{ font-size: 56px; }
+}
+@media screen and (min-width:992px){
+	.mdFz12{ font-size: 12px; }
+	.mdFz13{ font-size: 13px; }
+	.mdFz14{ font-size: 14px; }
+	.mdFz15{ font-size: 15px; }
+	.mdFz16{ font-size: 16px; }
+	.mdFz18{ font-size: 18px; }
+	.mdFz20{ font-size: 20px; }
+	.mdFz21{ font-size: 21px; }
+	.mdFz22{ font-size: 22px; }
+	.mdFz24{ font-size: 24px; }
+	.mdFz28{ font-size: 28px; }
+	.mdFz30{ font-size: 30px; }
+	.mdFz32{ font-size: 32px; }
+	.mdFz34{ font-size: 34px; }
+	.mdFz36{ font-size: 36px; }
+	.mdFz38{ font-size: 38px; }
+	.mdFz40{ font-size: 40px; }
+	.mdFz42{ font-size: 42px; }
+	.mdFz46{ font-size: 46px; }
+	.mdFz48{ font-size: 48px; }
+	.mdFz52{ font-size: 52px; }
+	.mdFz54{ font-size: 54px; }
+	.mdFz56{ font-size: 56px; }
+}
+@media screen and (min-width:1200px){
+	.lgFz12{ font-size: 12px; }
+	.lgFz13{ font-size: 13px; }
+	.lgFz14{ font-size: 14px; }
+	.lgFz15{ font-size: 15px; }
+	.lgFz16{ font-size: 16px; }
+	.lgFz18{ font-size: 18px; }
+	.lgFz20{ font-size: 20px; }
+	.lgFz21{ font-size: 21px; }
+	.lgFz22{ font-size: 22px; }
+	.lgFz24{ font-size: 24px; }
+	.lgFz28{ font-size: 28px; }
+	.lgFz30{ font-size: 30px; }
+	.lgFz32{ font-size: 32px; }
+	.lgFz34{ font-size: 34px; }
+	.lgFz36{ font-size: 36px; }
+	.lgFz38{ font-size: 38px; }
+	.lgFz40{ font-size: 40px; }
+	.lgFz42{ font-size: 42px; }
+	.lgFz46{ font-size: 46px; }
+	.lgFz48{ font-size: 48px; }
+	.lgFz52{ font-size: 52px; }
+	.lgFz54{ font-size: 54px; }
+	.lgFz56{ font-size: 56px; }
+}
+@media screen and (max-width:767px){
+	.xsFz12{ font-size: 12px; }
+	.xsFz13{ font-size: 13px; }
+	.xsFz14{ font-size: 14px; }
+	.xsFz15{ font-size: 15px; }
+	.xsFz16{ font-size: 16px; }
+	.xsFz18{ font-size: 18px; }
+	.xsFz20{ font-size: 20px; }
+	.xsFz21{ font-size: 21px; }
+	.xsFz22{ font-size: 22px; }
+	.xsFz24{ font-size: 24px; }
+	.xsFz28{ font-size: 28px; }
+	.xsFz30{ font-size: 30px; }
+	.xsFz32{ font-size: 32px; }
+	.xsFz34{ font-size: 34px; }
+	.xsFz36{ font-size: 36px; }
+	.xsFz38{ font-size: 38px; }
+	.xsFz40{ font-size: 40px; }
+	.xsFz42{ font-size: 42px; }
+	.xsFz46{ font-size: 46px; }
+	.xsFz48{ font-size: 48px; }
+	.xsFz52{ font-size: 52px; }
+	.xsFz54{ font-size: 54px; }
+	.xsFz56{ font-size: 56px; }
+}
+
+.mt0{ margin-top: 0; }

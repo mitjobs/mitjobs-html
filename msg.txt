@@ -1,0 +1,9 @@
+class 命名規則
+>>自訂名稱一律採用駝峰是命名法
+>>自訂名稱一律放置在HTML class屬性最前方
+>>滿版畫面關係，外層一律採用自訂class名稱控制
+
+
+檔案
+extend.css : 擴充bts的功能用，自訂CSS模組class
+style.css  : 刻畫面的細節，自訂的有的沒的CSS
