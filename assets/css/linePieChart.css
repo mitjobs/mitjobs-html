@@ -1,0 +1,466 @@
+@import url(https://fonts.googleapis.com/css?family=Homenaje);
+.lineCircle{
+	width: 100px;
+	height: 100px;
+	border-radius:50%;
+	position: relative;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	box-sizing:border-box;
+	z-index: 2;
+	box-sizing:border-box;
+	background-image: 
+	      -webkit-radial-gradient(50% 50%, farthest-corner circle, transparent 50%, #ddd 50%);
+    background-size: 100% 100%;
+    font-family: 'Homenaje', sans-serif;
+}
+.lineCircle:before,
+.lineCircle:after{
+	content:'';
+	width: 50%;
+	height: 100%;
+	display:block;
+	position: absolute;
+	top: 0;
+    background-repeat: no-repeat;
+}
+.lineCircle:before{
+	left: 0;
+	border-radius: 100% 0 0 100% / 50% 0 0 50%;
+    background-size: 100% 100%, 200% 100%;
+    background-position: 100% 50.1%,0% 0%;
+}
+.lineCircle:after{
+	right: 0;
+    border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+    background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+   , linear-gradient(270deg, #2fa8d4  51%, transparent 51%);
+    background-size: 100% 100%, 200% 100%;
+    background-position: 100% 50.1%,100% 0%;
+}
+.lineCircle span.num{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	height: 1.5em;
+	/* width: 100%;
+	height: 100%;
+	line-height:100px; */
+	text-align: center;
+	z-index: 6;
+	font-size: 200%;
+	color:#888;
+}
+.lineCircle span.num span{
+	font-size: 12px;
+}
+
+
+
+.f1:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(93.6deg, #2fa8d4  51%, transparent 51%);
+}
+.f2:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(97.2deg, #2fa8d4  51%, transparent 51%);
+}
+.f3:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(100.8deg, #2fa8d4  51%, transparent 51%);
+}
+.f4:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(104.4deg, #2fa8d4  51%, transparent 51%);
+}
+.f5:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(108deg, #2fa8d4  51%, transparent 51%);
+}
+.f6:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(111.6deg, #2fa8d4  51%, transparent 51%);
+}
+.f7:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(115.2deg, #2fa8d4  51%, transparent 51%);
+}
+.f8:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(118.8deg, #2fa8d4  51%, transparent 51%);
+}
+.f9:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(122.4deg, #2fa8d4  51%, transparent 51%);
+}
+.f10:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(126deg, #2fa8d4  51%, transparent 51%);
+}
+.f11:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(129.6deg, #2fa8d4  51%, transparent 51%);
+}
+.f12:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(133.2deg, #2fa8d4  51%, transparent 51%);
+}
+.f13:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(136.8deg, #2fa8d4  51%, transparent 51%);
+}
+.f14:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(140.4deg, #2fa8d4  51%, transparent 51%);
+}
+.f15:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(144deg, #2fa8d4  51%, transparent 51%);
+}
+.f16:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(147.6deg, #2fa8d4  51%, transparent 51%);
+}
+.f17:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(151.2deg, #2fa8d4  51%, transparent 51%);
+}
+.f18:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(154.8deg, #2fa8d4  51%, transparent 51%);
+}
+.f19:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(158.4deg, #2fa8d4  51%, transparent 51%);
+}
+.f20:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(162deg, #2fa8d4  51%, transparent 51%);
+}
+.f21:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(165.6deg, #2fa8d4  51%, transparent 51%);
+}
+.f22:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(169.2deg, #2fa8d4  51%, transparent 51%);
+}
+.f23:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(172.8deg, #2fa8d4  51%, transparent 51%);
+}
+.f24:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(176.4deg, #2fa8d4  51%, transparent 51%);
+}
+.f25:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(180deg, #2fa8d4  51%, transparent 51%);
+}
+.f26:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(183.6deg, #2fa8d4  51%, transparent 51%);
+}
+.f27:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(187.2deg, #2fa8d4  51%, transparent 51%);
+}
+.f28:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(190.8deg, #2fa8d4  51%, transparent 51%);
+}
+.f29:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(194.4deg, #2fa8d4  51%, transparent 51%);
+}
+.f30:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(198deg, #2fa8d4  51%, transparent 51%);
+}
+.f31:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(201.6deg, #2fa8d4  51%, transparent 51%);
+}
+.f32:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(205.2deg, #2fa8d4  51%, transparent 51%);
+}
+.f33:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(208.8deg, #2fa8d4  51%, transparent 51%);
+}
+.f34:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(212.4deg, #2fa8d4  51%, transparent 51%);
+}
+.f35:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(216deg, #2fa8d4  51%, transparent 51%);
+}
+.f36:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(219.6deg, #2fa8d4  51%, transparent 51%);
+}
+.f37:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(223.2deg, #2fa8d4  51%, transparent 51%);
+}
+.f38:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(226.8deg, #2fa8d4  51%, transparent 51%);
+}
+.f39:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(230.4deg, #2fa8d4  51%, transparent 51%);
+}
+.f40:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(234deg, #2fa8d4  51%, transparent 51%);
+}
+.f41:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(237.6deg, #2fa8d4  51%, transparent 51%);
+}
+.f42:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(241.2deg, #2fa8d4  51%, transparent 51%);
+}
+.f43:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(244.8deg, #2fa8d4  51%, transparent 51%);
+}
+.f44:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(248.4deg, #2fa8d4  51%, transparent 51%);
+}
+.f45:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(252deg, #2fa8d4  51%, transparent 51%);
+}
+.f46:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(255.6deg, #2fa8d4  51%, transparent 51%);
+}
+.f47:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(259.2deg, #2fa8d4  51%, transparent 51%);
+}
+.f48:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(262.8deg, #2fa8d4  51%, transparent 51%);
+}
+.f49:after{
+	background-image: -webkit-radial-gradient(0% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(266.4deg, #2fa8d4  51%, transparent 51%);
+}
+
+
+.f50:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(270deg, #2fa8d4  51%, transparent 51%);
+}
+.f51:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(273.6deg, #2fa8d4  51%, transparent 51%);
+}
+.f52:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(277.2deg, #2fa8d4  51%, transparent 51%);
+}
+.f53:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(280.8deg, #2fa8d4  51%, transparent 51%);
+}
+.f54:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(284.4deg, #2fa8d4  51%, transparent 51%);
+}
+.f55:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(288deg, #2fa8d4  51%, transparent 51%);
+}
+.f56:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(291.6deg, #2fa8d4  51%, transparent 51%);
+}
+.f57:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(295.2deg, #2fa8d4  51%, transparent 51%);
+}
+.f58:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(298.8deg, #2fa8d4  51%, transparent 51%);
+}
+.f59:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(302.4deg, #2fa8d4  51%, transparent 51%);
+}
+.f60:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(306deg, #2fa8d4  51%, transparent 51%);
+}
+.f61:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(309.6deg, #2fa8d4  51%, transparent 51%);
+}
+.f62:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(313.2deg, #2fa8d4  51%, transparent 51%);
+}
+.f63:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(316.8deg, #2fa8d4  51%, transparent 51%);
+}
+.f64:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(320.4deg, #2fa8d4  51%, transparent 51%);
+}
+.f65:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(324deg, #2fa8d4  51%, transparent 51%);
+}
+.f66:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(327.6deg, #2fa8d4  51%, transparent 51%);
+}
+.f67:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(331.2deg, #2fa8d4  51%, transparent 51%);
+}
+.f68:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(334.8deg, #2fa8d4  51%, transparent 51%);
+}
+.f69:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(338.4deg, #2fa8d4  51%, transparent 51%);
+}
+.f70:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(342deg, #2fa8d4  51%, transparent 51%);
+}
+.f71:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(345.6deg, #2fa8d4  51%, transparent 51%);
+}
+.f72:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(352.8deg, #2fa8d4  51%, transparent 51%);
+}
+.f73:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(356.4deg, #2fa8d4  51%, transparent 51%);
+}
+.f74:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(360deg, #2fa8d4  51%, transparent 51%);
+}
+.f75:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(363.6deg, #2fa8d4  51%, transparent 51%);
+}
+.f76:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(367.2deg, #2fa8d4  51%, transparent 51%);
+}
+.f77:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(370.8deg, #2fa8d4  51%, transparent 51%);
+}
+.f78:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(374.4deg, #2fa8d4  51%, transparent 51%);
+}
+.f79:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(378deg, #2fa8d4  51%, transparent 51%);
+}
+.f80:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(381.6deg, #2fa8d4  51%, transparent 51%);
+}
+.f81:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(385.2deg, #2fa8d4  51%, transparent 51%);
+}
+.f82:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(388.8deg, #2fa8d4  51%, transparent 51%);
+}
+.f83:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(392.4deg, #2fa8d4  51%, transparent 51%);
+}
+.f84:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(396deg, #2fa8d4  51%, transparent 51%);
+}
+.f85:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(399.6deg, #2fa8d4  51%, transparent 51%);
+}
+.f86:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(403.2deg, #2fa8d4  51%, transparent 51%);
+}
+.f87:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(406.8deg, #2fa8d4  51%, transparent 51%);
+}
+.f88:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(410.4deg, #2fa8d4  51%, transparent 51%);
+}
+.f89:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(414deg, #2fa8d4  51%, transparent 51%);
+}
+.f90:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(417.6deg, #2fa8d4  51%, transparent 51%);
+}
+.f91:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(421.2deg, #2fa8d4  51%, transparent 51%);
+}
+.f92:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(424.8deg, #2fa8d4  51%, transparent 51%);
+}
+.f93:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(428.4deg, #2fa8d4  51%, transparent 51%);
+}
+.f94:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(432deg, #2fa8d4  51%, transparent 51%);
+}
+.f95:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	      , linear-gradient(435.6deg, #2fa8d4  51%, transparent 51%);
+}
+.f96:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(439.2deg, #2fa8d4  51%, transparent 51%);
+}
+.f97:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(442.8deg, #2fa8d4  51%, transparent 51%);
+}
+.f98:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(446.4deg, #2fa8d4  51%, transparent 51%);
+}
+.f99:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(448.2deg, #2fa8d4  51%, transparent 51%);
+}
+.f100:before{
+	background-image: -webkit-radial-gradient(100% 50%, farthest-corner circle, #fff 50%, transparent 51%)
+	       , linear-gradient(450deg, #2fa8d4  51%, transparent 51%);
+}
