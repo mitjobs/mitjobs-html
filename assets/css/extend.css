@@ -102,3 +102,21 @@
 .mt0{ margin-top: 0; }
 .mt10{ margin-top: 10px; }
 .mt20{ margin-top: 20px; }
+
+/* 垂直對齊專用 */
+.vam:before{
+	content:'';
+	display:inline-block;
+	height: 100%;
+	width: 0;
+	margin-right: -.7em;
+	vertical-align:middle;
+}
+.vam > div,
+.vam > p,
+.vam > span,
+.vam > .vamContent{
+	display:inline-block;
+	vertical-align: middle;
+	margin: 0;
+}

@@ -1,5 +1,13 @@
+.btn{
+	border-radius:0;
+}
 .testimonial{
 	background-color:HSL(0, 0%, 91%);
+}
+.testimonial .thumbnail{
+	background-color:transparent;
+	border:none;
+	box-shadow:none;
 }
 .testimonial .pic{
 	width: 100%;
@@ -19,6 +27,16 @@
 .howIt{
 	background-color:HSL(13, 91%, 59%);
 }
+.howItTxt{
+	padding-bottom: 26.673504274%;
+	height: 0;
+	color:#fff;
+}
+.howItTxt > .vam{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
 .featuredEmployer li{
 	margin-bottom: 20px;
 }
@@ -27,4 +45,80 @@
 }
 .newsItem h3{
 	margin-top: 0;
+}
+
+
+.linePieChart{
+	position: relative;
+	border-bottom:1px solid #b4b4b4;
+}
+
+.linePieChart .itemCol{
+	float: left;
+	position: relative;
+	box-sizing:border-box;
+	padding:0 15px;
+	width: 12.5%;
+	text-align: center;
+	padding-bottom: 30px;
+}
+@media screen and (min-width:768px){
+	.linePieChart .itemCol:nth-child(6){ left: 25%; }
+	.linePieChart .itemCol:nth-child(7){ left: -12.5%; }
+	.linePieChart .itemCol:nth-child(8){ left: -12.5%; }
+}
+@media screen and (max-width:767px){
+	.linePieChart .itemCol{
+		width: 33.333333%;
+		padding-bottom: 0;
+	}
+}
+.itemCol.active:before,
+.itemCol.active:after{
+	content:'';
+	position: absolute;
+	width: 0;
+	height: 0;
+	bottom: -1px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	border-bottom:20px solid #FFF;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+}
+@media screen and (max-width:767px){
+	.itemCol.active:before,
+	.itemCol.active:after{
+		display:none;
+	}
+}
+.itemCol.active:before{
+	border-bottom: 22px solid #b4b4b4;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+}
+.linePieChart .itemCol a{
+	display:block;
+	text-decoration: none;
+	color:#aaa;
+	opacity:.5;
+	transform:scale(.9);
+	transition:opacity .3s, transform .3s;
+}
+.linePieChart .lineCircle{
+	width: 100%;
+	height: 0;
+	padding-bottom: 100%;
+}
+
+.linePieChart .itemCol .vam{
+	padding-top: .4em;
+	height: 3em;
+}
+.linePieChart .itemCol a:hover,
+.linePieChart .itemCol.active a{
+	color:#2fa8d4;
+	opacity:1;
+	transform:scale(1.1);
 }
