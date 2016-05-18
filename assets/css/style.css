@@ -1,5 +1,81 @@
+/* *{ outline:1px solid #f00; } */
 .btn{
 	border-radius:0;
+}
+.navbar-inverse .navbar-nav > li > a{
+	color:#fff;
+	font-weight: 100;
+}
+.mainNav{
+	margin-bottom: 0;
+	z-index: 10;
+	background-image:none;
+	background-color:rgba(0, 0, 0, .8);
+}
+.navbarList{
+	padding-right: 10px;
+}
+.indexMap{
+	width: 100%;
+	height: 0;
+	position: relative;
+	padding-bottom: 42%;
+}
+.indexMap .map{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+.indexMap .map iframe{
+	width: 100%;
+	height: 100%;
+	border:none;
+}
+.mainSearch{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	height: 46px;
+}
+.mainSearch .btn{
+	background-color:transparent;
+	color:#8a8a8a;
+}
+.mainSearch .input-group{
+	height: 46px;
+	border:1px solid #8a8a8a;
+	border-radius: 23px;
+	background-color:#fff;
+	overflow: hidden;
+}
+.mainSearch .input-group .form-control{
+	border:none;
+	box-shadow:none;
+	border-radius: 23px 0 0 23px;
+}
+/* call to action */
+.forUsers{
+	background:#494949 url('../images/call-arrow-l.png') no-repeat left 40px;
+}
+.forEmployer{
+	background:#494949 url('../images/call-arrow-r.png') no-repeat right 40px;
+}
+.callToAction .row{
+	overflow: hidden;
+}
+.forUsers .fa{
+	float: left;
+}
+.callToAction .forUsers,
+.callToAction .forEmployer{
+	padding-top: 40px;
+	padding-bottom: 540px;
+	margin-bottom: -500px;
 }
 .testimonial{
 	background-color:HSL(0, 0%, 91%);
@@ -35,7 +111,7 @@
 .howItTxt > .vam{
 	position: absolute;
 	height: 100%;
-	width: 100%;
+	/* width: 100%; */
 }
 .featuredEmployer li{
 	margin-bottom: 20px;
