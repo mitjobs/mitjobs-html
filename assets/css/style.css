@@ -231,3 +231,60 @@ footer a{
 	opacity:1;
 	transform:scale(1.1);
 }
+.jobListGroup{
+	background-color:#eee;
+}
+.jobListItem{
+	border:1px solid #9d9d9d;
+}
+.jobPayroll{
+	color:#b21f1f;
+}
+.jobsTags{
+	padding-left: 1em;
+	text-indent: -.4em;
+	line-height: 1.8;
+	color:#8a8a8a;
+}
+.jobsTags .fa{
+	margin-right: .5em;
+}
+.jobsTags ul{
+	display:inline;
+	/* margin-left: 4px; */
+	text-indent: 0em;
+}
+.jobsTags li{
+	margin: 0 -2px 0 0	;
+	padding: 0;
+}
+.jobsTags li + li:before{
+	content:'、';
+}
+.jobsTags a{
+	padding: 3px 8px;
+	text-decoration: none;
+	color:#8a8a8a;
+	transition:.3s;
+}
+.jobsTags a:hover{
+	background-color:#8a8a8a;
+	color:#fff;
+}
+@media screen and (min-width:768px){
+	.postInfoGroup li + li:before{
+		content:'/';
+		padding-right: .7em;
+	}
+	.jobName .jobType,
+	.jobName .remote{
+		display:inline-block;
+		font-size: 14px;
+		color:#9d9d9d;
+	}
+	.jobName .jobType:before,
+	.jobName .remote:before{
+		content:'/';
+		padding-right: .7em;
+	}
+}
