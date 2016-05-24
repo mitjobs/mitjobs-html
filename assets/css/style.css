@@ -231,11 +231,78 @@ footer a{
 	opacity:1;
 	transform:scale(1.1);
 }
-.jobListGroup{
-	background-color:#eee;
-}
 .jobListItem{
 	border:1px solid #9d9d9d;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+.jobListFeatures{
+	position: absolute;
+	bottom: 10px;
+	left: -1.3em;
+	font-size: 21px;
+}
+.jobListFeatures a{
+	color:#A2A2A2;
+}
+.jobListFeatures .keep{}
+.jobListFeatures .share{}
+.jobListFeatures .bonus{ position: relative; }
+.jobListFeatures .keep a:hover,
+.jobListFeatures .keep.active a{ color:#DEC800; }
+.jobListFeatures .share a:hover,
+.jobListFeatures .share.active a{ color:#4E8AB4; }
+.jobListFeatures .bonus a:hover,
+.jobListFeatures .bonus.active a{ color:#CE9900; }
+.jobListFeatures .bonus ul{
+	display: block;
+    position: absolute;
+    background-color: #CE9900;
+    color: #fff;
+    width: 6em;
+    height: 26px;
+    left: 1.3em;
+    padding-left: 10px;
+    top: 3px;
+}
+.jobListFeatures .bonus ul:before{
+	content:'';
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: -5px;
+	left: 0;
+	border-left: 5px solid transparent;
+	border-bottom:5px solid #A87900;
+}
+.jobListFeatures .bonus ul:after{
+	content:'';
+	position: absolute;
+	right: -11px;
+	border-right: 11px solid transparent;
+	border-top: 13px solid #CE9900;
+	border-bottom:13px solid #CE9900;
+}
+.jobListFeatures .bonus li{
+	font-size:12px;
+	padding: 0;
+}
+.jobListFeatures .bonus li + li:before{
+	content:'/';
+	padding-right: 1em;
+}
+.jobListFeatures .bonus span{ 
+	display:inline-block; 
+	vertical-align: middle;
+	width: 0;
+	overflow: hidden;
+}
+.jobListFeatures .bonus:hover ul{
+	width: 300px;
+}
+.jobListFeatures .bonus:hover span{
+	width: auto;
+	padding-right: .5em;
 }
 .jobPayroll{
 	color:#b21f1f;
@@ -254,11 +321,13 @@ footer a{
 	/* margin-left: 4px; */
 	text-indent: 0em;
 }
-.jobsTags li{
+.jobsTags li,
+.keyWords li{
 	margin: 0 -2px 0 0	;
 	padding: 0;
 }
-.jobsTags li + li:before{
+.jobsTags li + li:before,
+.keyWords li + li:before{
 	content:'、';
 }
 .jobsTags a{
@@ -271,8 +340,68 @@ footer a{
 	background-color:#8a8a8a;
 	color:#fff;
 }
+.keyWords{
+	padding-top: 1em;
+	line-height: 1.8;
+	text-shadow: 0 0 2px #000;
+}
+.keyWords li,
+.keyWords li a{
+	color:#fff;
+}
+.searchBlock{
+	background-image: url('../images/search-banner.jpg');
+	background-size:cover;
+	padding-top: 10%;
+	padding-bottom: 6%;
+}
+.serachJobs .inputSearch{
+	border-radius:100px 0 0 100px;
+}
+.serachJobs .btnSearchDropdown.dropdown-toggle{
+	border-radius:0 100px 100px 0;
+	background-color:#fff;
+	background-image:none;
+}
+.serachJobs .btnSearch{
+	border-radius:50%;
+}
+.postInfoGroup,
+.postInfoGroup :before,
+.jobListItem .jobSummary{
+	color:#8A8A8A;
+}
+.postInfoGroup .companyName,
+.postInfoGroup .companyName .fa:before{
+	color:#000;
+}
+.postInfoGroup .postedFrom,
+.postInfoGroup .postedFrom .fa:before{
+	color:#4E8AB4;
+}
+
+aside .jobListGroup{
+	background-color:#eee;
+	padding-bottom: 20px;
+}
+.jobListItemXs + .jobListItemXs{
+	margin-top: 20px;
+}
+.jobListItemXs h3{
+	margin: 0;
+}
+.jobListItemXs p{
+	margin: 0;
+}
+.jobListItemXs .companyName,
+.jobListItemXs .jobLocation{
+	font-size: 14px;
+}
+.filterOption{
+	display:inline-block;
+}
 @media screen and (min-width:768px){
-	.postInfoGroup li + li:before{
+	.jobListItem .postInfoGroup li + li:before{
 		content:'/';
 		padding-right: .7em;
 	}
