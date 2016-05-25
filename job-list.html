@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Job list</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-theme.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/extend.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/linePieChart.css">
+		<link href="assets/css/style.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+			<script src="assets/js/html5shiv.js"></script>
+			<script src="assets/js/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body class="jobListPage">
+
+	<nav class="mainNav navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<!-- LOGO及行動裝置按鈕切換區 -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".mainNavbar">
+				<span class="sr-only">導覽列開關</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">LOGO</a>
+		</div>
+
+		<div class="collapse navbar-collapse mainNavbar">
+			<form class="navbar-form navbar-left" role="search">
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="請輸入關鍵字">
+				</div>
+				<button type="submit" class="btn btn-default">搜尋</button>
+			</form>
+			<ul class="navbarList nav navbar-nav navbar-right">
+				<li class="signin"><a href="#"><i class="fa fa-sign-in"></i> signin</a></li>
+				<li class="signout"><a href="#"><i class="fa fa-sign-out"></i> signout</a></li>
+				<li><a href="#"><i class="fa fa-black-tie" aria-hidden="true"></i> All jobs</a></li>
+				<li><a href="#"><i class="fa fa-pencil"></i> Columns</a></li>
+				<li><a href="#"><i class="fa fa-building"></i> For Employer</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-language"></i> Language<b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">繁體中文</a></li>
+						<li><a href="#">English</a></li>
+					</ul>
+				</li>
+			</ul>
+			<div class="navbarUser pull-right">
+				<a href="#"><img src="https://api.fnkr.net/testimg/46x46/AAE1FF/FFF/" class="img-circle"> Amos</a>
+			</div>
+		</div>
+	</nav>
+
+
+
+
+	<!-- search header -->
+	<div class="searchBlock">
+		<div class="container">
+			<div class="row">
+				<div class="serachJobs col-xs-12 col-sm-6 col-sm-offset-3">
+					<div class="input-group input-group-lg">
+				      <input type="text" class="inputSearch form-control" placeholder="請輸入關鍵字">
+				      <span class="input-group-btn">
+						 <button type="button" class="btnSearchDropdown btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Country <span class="caret"></span></button>
+				        <ul class="dropdown-menu" role="menu">
+				          <li><a href="#">taiwan</a></li>
+				          <li><a href="#">taiwan</a></li>
+				          <li><a href="#">taiwan</a></li>
+				          <li><a href="#">taiwan</a></li>
+				        </ul>
+				      </span>
+				    </div>
+				</div>
+				<div class="serachJobs col-xs-12 col-sm-1">
+				    <button class="btnSearch btn btn-info btn-lg" type="button">
+				    	<i class="glyphicon glyphicon-search"></i>
+				    	<span class="sr-only">搜尋</span>
+				    </button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="keyWords col-xs-12 col-sm-6 col-sm-offset-3">
+					<ul class="list-inline">
+						<li><a href="#">keykeykey</a></li>
+						<li><a href="#">key</a></li>
+						<li><a href="#">copycacasi</a></li>
+						<li><a href="#">lorem</a></li>
+						<li><a href="#">amos</a></li>
+						<li><a href="#">key</a></li>
+						<li><a href="#">davie</a></li>
+						<li><a href="#">divvc</a></li>
+						<li><a href="#">lufy</a></li>
+						<li><a href="#">key</a></li>
+						<li><a href="#">key</a></li>
+						<li><a href="#">key</a></li>
+						<li><a href="#">key</a></li>
+						<li><a href="#">key</a></li>
+						<li><a href="#">key</a></li>
+						<li><a href="#">key</a></li>
+						<li><a href="#">key</a></li>
+						<li><a href="#">key</a></li>
+						<li><a href="#">key</a></li>
+						<li><a href="#">key</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- path -->
+	<div class="container">
+		<div class="row">
+			<ol class="breadcrumb">
+				<li>
+					<a href="#">首頁</a>
+				</li>
+				<li>
+					<a href="#">最新消息</a>
+				</li>
+				<li class="active">媽我上電視了</li>
+			</ol>
+		</div>
+	</div>	
+
+	<!-- ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ -->
+	<!-- 兩欄 -->
+	<!-- ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ -->
+	<div class="container">
+		<div class="row">
+
+			<div class="col-xs-12 col-sm-12">
+				<div class="page-header">
+				  <h1 class="searchResultTitle smFz36">Front end Developer<span class="location smFz18 xsFz15">All country</span></h1>
+
+
+				<div class="filter">
+					<div class="filterOption dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Posted  from <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">1 minute ago</a></li>
+							<li><a href="#">1 hours ago</a></li>
+							<li><a href="#">1 day ago</a></li>
+						</ul>
+					</div>
+					<div class="filterOption dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Type <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Full Time</a></li>
+							<li><a href="#">Remote</a></li>
+						</ul>
+					</div>
+					<div class="filterOption dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Salary <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">100 - 200</a></li>
+							<li><a href="#">200 - 300</a></li>
+							<li><a href="#">300+</a></li>
+						</ul>
+					</div>
+					<div class="filterOption dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Taiwan <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">All country</a></li>
+							<li><a href="#">Taiwan</a></li>
+							<li><a href="#">Japan</a></li>
+						</ul>
+					</div>
+				</div>
+				</div>
+			</div>
+
+			<article class="col-xs-12 col-sm-8">
+				<section class="jobListItem col-xs-12 col-sm-12">
+					<div class="row">
+						<div class="companyLogo col-xs-3 col-sm-3">
+							<img src="https://api.fnkr.net/testimg/350x200/00CED1/FFF/?text=img+placeholder" class="img-responsive">
+						</div>
+						<div class="col-xs-9 col-sm-9">
+							<div class="postInfoGroup">
+								<ul class="list-inline">
+									<li class="companyName"><i class="fa fa-building"></i> Tan Tock Seng Hospital</li>
+									<li class="jobLocation"><i class="fa fa-map-marker"></i> Singapore / Singapore</li>
+									<li class="postedFrom"><i class="fa fa-clock-o"></i> 3 months ago</li>
+								</ul>
+							</div>
+							<h2 class="jobName smFz24">
+								Front end Developer 
+								<div class="jobType smFz14">Full Time</div> 
+								<div class="remote smFz14 xsFz14"><i class="fa fa-wifi"></i> Remote</div>
+							</h2>
+							<p class="jobPayroll smFz24">
+								$ 3500 - 4500 SGD per month
+							</p>
+							<p class="jobSummary smFz14">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis cum veniam inventore placeat sed ex, beatae modi atque, aut quas perspiciatis quibusdam itaque aliquam totam, maxime consectetur veritatis. Et, harum!</p>
+							<div class="jobsTags">
+								<span class="sr-only">關鍵字</span>
+								<i class="fa fa-tag"></i>
+								<ul class="list-inline">
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="jobListFeatures">
+							<ul class="list-unstyled">
+								<li class="keep">
+									<a href="#" data-toggle="tooltip" data-placement="right" title="Keep">
+										<i class="glyphicon glyphicon-star"></i>
+										<span class="txt">Save</span>
+									</a>
+								</li>
+								<li class="share">
+									<a href="#" data-toggle="tooltip" data-placement="right" title="Share">
+										<i class="fa fa-share" aria-hidden="true"></i>
+										<span class="txt">Share</span>
+									</a>
+								</li>
+								<li class="bonus">
+									<a href="#">
+										<i class="fa fa-trophy"></i>
+										<span class="sr-only">就職獎金</span>
+									</a>
+									<ul class="list-inline">
+										<li><span>Hiring bonus </span>$100</li>
+										<li><span>Referral Prize </span>$200</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+
+
+				<section class="jobListItem col-xs-12 col-sm-12">
+					<div class="row">
+						<div class="companyLogo col-xs-3 col-sm-3">
+							<img src="https://api.fnkr.net/testimg/350x200/00CED1/FFF/?text=img+placeholder" class="img-responsive">
+						</div>
+						<div class="col-xs-9 col-sm-9">
+							<div class="postInfoGroup">
+								<ul class="list-inline">
+									<li class="companyName"><i class="fa fa-building"></i> Tan Tock Seng Hospital</li>
+									<li class="jobLocation"><i class="fa fa-map-marker"></i> Singapore / Singapore</li>
+									<li class="postedFrom"><i class="fa fa-clock-o"></i> 3 months ago</li>
+								</ul>
+							</div>
+							<h2 class="jobName smFz24">
+								Front end Developer 
+								<div class="jobType smFz14">Full Time</div> 
+								<div class="remote smFz14"><i class="fa fa-wifi"></i> Remote</div>
+							</h2>
+							<p class="jobPayroll smFz24">
+								$ 3500 - 4500 SGD per month
+							</p>
+							<p class="jobSummary smFz14">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis cum veniam inventore placeat sed ex, beatae modi atque, aut quas perspiciatis quibusdam itaque aliquam totam, maxime consectetur veritatis. Et, harum!</p>
+							<div class="jobsTags">
+								<span class="sr-only">關鍵字</span>
+								<i class="fa fa-tag"></i>
+								<ul class="list-inline">
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+									<li><a href="#">F2E</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="jobListFeatures">
+							<ul class="list-unstyled">
+								<li class="keep">
+									<a href="#" data-toggle="tooltip" data-placement="right" title="Keep">
+										<i class="glyphicon glyphicon-star"></i>
+										<span class="sr-only">收藏</span>
+									</a>
+								</li>
+								<li class="share">
+									<a href="#" data-toggle="tooltip" data-placement="right" title="Share">
+										<i class="fa fa-share" aria-hidden="true"></i>
+										<span class="sr-only">分享</span>
+									</a>
+								</li>
+								<li class="bonus">
+									<a href="#">
+										<i class="fa fa-trophy"></i>
+										<span class="sr-only">就職獎金</span>
+									</a>
+									<ul class="list-inline">
+										<li><span>Hiring bonus </span>$100</li>
+										<li><span>Referral Prize </span>$200</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<div class="pagi text-center">
+					<ul class="pagination">
+						<li><a href="#">&laquo;</a></li>
+						<li><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a></li>
+						<li><a href="#">&raquo;</a></li>
+					</ul>
+				</div>
+			</article>
+
+			<aside class="col-xs-12 col-sm-4">
+				<div class="jobListGroup col-xs-12 col-sm-12">
+					<h2>Hot jobs</h2>
+					<section class="jobListItemXs col-xs-12 col-sm-12">
+						<div class="row">
+							<div class="col-xs-3 col-sm-3">
+								<div class="row">
+									<img src="https://api.fnkr.net/testimg/350x350/00CED1/FFF/?text=img+placeholder" class="img-responsive">
+								</div>
+							</div>
+							<div class="col-xs-9 col-sm-9">
+								<h3 class="smFz18">Front end Developer</h3>
+								<p class="jobPayroll smFz14">
+									$ 3500 - 4500 SGD per month
+								</p>
+								<div class="postInfoGroup">
+								<ul class="list-unstyled">
+									<li class="companyName"><i class="fa fa-building"></i> Tan Tock Seng Hospital</li>
+									<li class="jobLocation"><i class="fa fa-map-marker"></i> Singapore / Singapore</li>
+								</ul>
+							</div>
+							</div>
+						</div>
+					</section>
+					<section class="jobListItemXs col-xs-12 col-sm-12">
+						<div class="row">
+							<div class="col-xs-3 col-sm-3">
+								<div class="row">
+									<img src="https://api.fnkr.net/testimg/350x350/00CED1/FFF/?text=img+placeholder" class="img-responsive">
+								</div>
+							</div>
+							<div class="col-xs-9 col-sm-9">
+								<h3 class="smFz18">Front end Developer</h3>
+								<p class="jobPayroll smFz14">
+									$ 3500 - 4500 SGD per month
+								</p>
+								<div class="postInfoGroup">
+								<ul class="list-unstyled">
+									<li class="companyName"><i class="fa fa-building"></i> Tan Tock Seng Hospital</li>
+									<li class="jobLocation"><i class="fa fa-map-marker"></i> Singapore / Singapore</li>
+								</ul>
+							</div>
+							</div>
+						</div>
+					</section>
+					<section class="jobListItemXs col-xs-12 col-sm-12">
+						<div class="row">
+							<div class="col-xs-3 col-sm-3">
+								<div class="row">
+									<img src="https://api.fnkr.net/testimg/350x350/00CED1/FFF/?text=img+placeholder" class="img-responsive">
+								</div>
+							</div>
+							<div class="col-xs-9 col-sm-9">
+								<h3 class="smFz18">Front end Developer</h3>
+								<p class="jobPayroll smFz14">
+									$ 3500 - 4500 SGD per month
+								</p>
+								<div class="postInfoGroup">
+								<ul class="list-unstyled">
+									<li class="companyName"><i class="fa fa-building"></i> Tan Tock Seng Hospital</li>
+									<li class="jobLocation"><i class="fa fa-map-marker"></i> Singapore / Singapore</li>
+								</ul>
+							</div>
+							</div>
+						</div>
+					</section>
+				</div>
+
+				<div class="jobListGroup col-xs-12 col-sm-12">
+					<h2>Hot jobs</h2>
+					<section class="jobListItemXs col-xs-12 col-sm-12">
+						<div class="row">
+							<div class="col-xs-3 col-sm-3">
+								<div class="row">
+									<img src="https://api.fnkr.net/testimg/350x350/00CED1/FFF/?text=img+placeholder" class="img-responsive">
+								</div>
+							</div>
+							<div class="col-xs-9 col-sm-9">
+								<h3 class="smFz18">Front end Developer</h3>
+								<p class="jobPayroll smFz14">
+									$ 3500 - 4500 SGD per month
+								</p>
+								<div class="postInfoGroup">
+								<ul class="list-unstyled">
+									<li class="companyName"><i class="fa fa-building"></i> Tan Tock Seng Hospital</li>
+									<li class="jobLocation"><i class="fa fa-map-marker"></i> Singapore / Singapore</li>
+								</ul>
+							</div>
+							</div>
+						</div>
+					</section>
+					<section class="jobListItemXs col-xs-12 col-sm-12">
+						<div class="row">
+							<div class="col-xs-3 col-sm-3">
+								<div class="row">
+									<img src="https://api.fnkr.net/testimg/350x350/00CED1/FFF/?text=img+placeholder" class="img-responsive">
+								</div>
+							</div>
+							<div class="col-xs-9 col-sm-9">
+								<h3 class="smFz18">Front end Developer</h3>
+								<p class="jobPayroll smFz14">
+									$ 3500 - 4500 SGD per month
+								</p>
+								<div class="postInfoGroup">
+								<ul class="list-unstyled">
+									<li class="companyName"><i class="fa fa-building"></i> Tan Tock Seng Hospital</li>
+									<li class="jobLocation"><i class="fa fa-map-marker"></i> Singapore / Singapore</li>
+								</ul>
+							</div>
+							</div>
+						</div>
+					</section>
+					<section class="jobListItemXs col-xs-12 col-sm-12">
+						<div class="row">
+							<div class="col-xs-3 col-sm-3">
+								<div class="row">
+									<img src="https://api.fnkr.net/testimg/350x350/00CED1/FFF/?text=img+placeholder" class="img-responsive">
+								</div>
+							</div>
+							<div class="col-xs-9 col-sm-9">
+								<h3 class="smFz18">Front end Developer</h3>
+								<p class="jobPayroll smFz14">
+									$ 3500 - 4500 SGD per month
+								</p>
+								<div class="postInfoGroup">
+								<ul class="list-unstyled">
+									<li class="companyName"><i class="fa fa-building"></i> Tan Tock Seng Hospital</li>
+									<li class="jobLocation"><i class="fa fa-map-marker"></i> Singapore / Singapore</li>
+								</ul>
+							</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</aside>
+		</div>
+	</div>
+
+
+
+	<!-- ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ -->
+	<!-- footer -->
+	<!-- ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ -->
+
+
+	<footer class="footer">
+		<!-- 此處使用jq load檔案：include-footer.html -->
+	</footer>
+
+
+
+
+	<script src="assets/js/jquery1.11.1.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
