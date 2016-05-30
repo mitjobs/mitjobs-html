@@ -453,7 +453,8 @@ footer a{
 	padding-top: 10%;
 	padding-bottom: 6%;
 }
-.jobDetailBanner{
+.jobDetailBanner,
+.employerHeader{
 	background-size:cover;
 	height: 0;
 	padding-bottom: 10%;
@@ -564,16 +565,25 @@ aside .jobListGroup{
 	}
 }
 .breadcrumb{margin: 0; background-color:transparent;}
-.jobDetailPage .breadcrumb{
+.jobDetailPage .breadcrumb,
+.employerDetailPage .breadcrumb{
 	padding-top: 60px;
 }
 .jobDetailContent .jobSummary h2,
-.jobDetailContent .jobDiscraption h2{
+.jobDetailContent .jobDiscraption h2,
+.employerDiscraption h2{
 	color:#B4B4B4;
 }
 .jobDetailContent .jobSummary p,
-.jobDetailContent .jobDiscraption p{
+.jobDetailContent .jobDiscraption p,
+.employerDiscraption p{
 	padding: 20px;
 	border:1px solid #B4B4B4;
 	color:#B4B4B4;
+}
+.employerMap{
+	padding-top: 30px;
+}
+.employerMap .active a{
+	text-decoration: underline;
 }
