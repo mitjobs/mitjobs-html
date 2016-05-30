@@ -571,7 +571,10 @@ aside .jobListGroup{
 }
 .jobDetailContent .jobSummary h2,
 .jobDetailContent .jobDiscraption h2,
-.employerDiscraption h2{
+.employerDiscraption h2,
+.employerDetailContent .jobs-list h2,
+.employerMap h2,
+.employerGallery h2{
 	color:#B4B4B4;
 }
 .jobDetailContent .jobSummary p,
@@ -586,4 +589,42 @@ aside .jobListGroup{
 }
 .employerMap .active a{
 	text-decoration: underline;
+}
+.employerHeader{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	height: auto;
+}
+.employerHeader h1{
+	color:#fff;
+	border-bottom:1px solid #fff;
+	margin-top: 0;
+	padding-bottom: 15px;
+}
+.employerDetailContent{
+	padding-bottom: 50px;
+}
+.employerHeader .postInfoGroup,
+.employerHeader .postInfoGroup a,
+.employerHeader .jobsTags a,
+.employerHeader .postInfoGroup :before,
+.employerHeader .jobsTags :before{
+	color:#fff;
+	font-size: 18px;
+}
+.employerHeader .postInfoGroup ul{
+	margin-bottom: 0;
+}
+.gllaeryPicList{
+	font-size: 0;
+	width: 100%;
+	border:1px solid #b4b4b4;
+	box-sizing:border-box;
+	margin-left: 0;	
+	margin-top: 10px;
+}
+.gllaeryPicList li{
+	width: 16.666666665%;
+	padding: 10px;
+	box-sizing:border-box;
 }
