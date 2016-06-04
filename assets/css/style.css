@@ -7,6 +7,9 @@ footer{
 	color:#fff;
 	padding-top: 40px;
 }
+footer .container{
+	padding-bottom: 40px;
+}
 footer h3{
 	color:#9d9d9d;
 	font-size: 18px;
@@ -14,6 +17,9 @@ footer h3{
 footer a{
 	color:#fff;
 	text-decoration: none;
+}
+footer .footerOurAdvantage .btn{
+	background-color:#2BC8FF;
 }
 .copyRight{
 	background-color:#000;
@@ -36,6 +42,26 @@ footer a{
 	color:#fff;
 	font-weight: 100;
 }
+.navbarUser{
+	padding-right: 20px;
+}
+@media screen and (max-width:767px){
+	.navbarUser.pull-right{
+		float: left!important;
+		padding-right: 0px;
+	}
+}
+.navbarUser a{
+	color:#fff;
+	font-weight: 100;
+	line-height: 50px;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbarUser a:hover{
+	color:#2BC8FF;
+}
+
+
 .mainNav{
 	margin-bottom: 0;
 	z-index: 10;
@@ -89,6 +115,9 @@ footer a{
 	border-radius: 23px 0 0 23px;
 }
 /* call to action */
+.callToAction{
+	background-image:linear-gradient(90deg, #494949 50%, #2BC8FF 50%);
+}
 .callToAction .row{
 	overflow: hidden;
 }
@@ -99,7 +128,7 @@ footer a{
 	background:#494949 url('../images/call-arrow-l.png') no-repeat left 40px;
 }
 .forEmployer{
-	background:#494949 url('../images/call-arrow-r.png') no-repeat right 40px;
+	background:#2BC8FF url('../images/call-arrow-r.png') no-repeat right 40px;
 }
 .forUsers .fa{
 	float: left;
@@ -126,6 +155,13 @@ footer a{
 	border-radius:50%;
 	position: relative;
 }
+@media screen and (max-width:767px){
+	.testimonial .pic{
+		width: 70%;
+		padding-bottom: 70%;
+		margin: auto;
+	}
+}
 .testimonial .pic img{
 	position: absolute;
 	width: auto;
@@ -146,8 +182,27 @@ footer a{
 	height: 100%;
 	/* width: 100%; */
 }
+.testimonial,
+.featuredEmployer,
+.news{
+	padding-bottom: 40px;
+}
+.news{
+	background-color:#30A8D4;
+	color:#fff;
+}
+.testimonial h2,
+.featuredEmployer h2,
+.news h2{
+	padding: 30px 0;
+	font-size: 48px;
+}
 .featuredEmployer li{
 	margin-bottom: 20px;
+}
+.testimonial h3{
+	text-align: center;
+	font-size: 18px;
 }
 .newsItem{
 	margin-bottom: 20px;
