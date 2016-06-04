@@ -130,15 +130,32 @@ footer .footerOurAdvantage .btn{
 .forEmployer{
 	background:#2BC8FF url('../images/call-arrow-r.png') no-repeat right 40px;
 }
-.forUsers .fa{
+/* .forUsers .fa{
 	float: left;
-}
+} */
 .callToAction .forUsers,
 .callToAction .forEmployer{
 	padding-top: 40px;
 	padding-bottom: 540px;
 	margin-bottom: -500px;
 }
+.callToAction .forUsers{ padding-left: 56px; }
+.callToAction .forEmployer{padding-right: 56px;}
+.callToAction .forUsers h2,
+.callToAction .forUsers p{ padding-left: 110px; }
+.callToAction .forEmployer h2,
+.callToAction .forEmployer p{ padding-right: 110px; }
+.callToAction .forUsers p + .fa,
+.callToAction .forEmployer p + .fa{
+	font-size: 128px;
+    position: absolute;
+    top: 40px;
+}
+.callToAction .forUsers p + .fa{left: 56px;}
+.callToAction .forEmployer p + .fa{right: 39px;}
+.callToAction .forUsers span { background-color:#fff; color:#494949; }
+.callToAction .forEmployer span { background-color:#fff; color:#30A8D4; }
+
 .testimonial{
 	background-color:HSL(0, 0%, 91%);
 }
