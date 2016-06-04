@@ -194,10 +194,24 @@ footer .footerOurAdvantage .btn{
 	height: 0;
 	color:#fff;
 }
+@media screen and (max-width:767px){
+	.howItTxt{
+		padding-bottom: 40px;
+		height: auto;
+		color:#fff;
+	}
+}
 .howItTxt > .vam{
 	position: absolute;
 	height: 100%;
 	/* width: 100%; */
+}
+@media screen and (max-width:767px){
+	.howItTxt > .vam{
+		position: relative;
+		height: auto;
+		/* width: 100%; */
+	}
 }
 .testimonial,
 .featuredEmployer,
