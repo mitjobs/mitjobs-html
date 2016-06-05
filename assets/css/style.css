@@ -322,6 +322,11 @@ footer .footerOurAdvantage .btn{
 	padding-top: 15px;
 	padding-bottom: 10px;
 }
+@media screen and (max-width:767px){
+	.jobListItem{
+		padding-bottom: 60px;
+	}
+}
 .jobListItem + .jobListItem{
 	margin-top: 20px;
 }
@@ -330,6 +335,11 @@ footer .footerOurAdvantage .btn{
 	bottom: 10px;
 	left: -1.3em;
 	font-size: 21px;
+}
+@media screen and (max-width:767px){
+	.jobListFeatures{
+		left: 0.3em;
+	}
 }
 .jobDetailInfo{
 	position: relative;
@@ -356,6 +366,7 @@ footer .footerOurAdvantage .btn{
     left: 1.3em;
     padding-left: 10px;
     top: 3px;
+    line-height: 15px;
 }
 .jobListFeatures .bonus ul:before{
 	content:'';
@@ -391,12 +402,37 @@ footer .footerOurAdvantage .btn{
 }
 .jobListFeatures .bonus:hover ul{
 	width: 300px;
+	line-height: 19px;
 }
 .jobListFeatures .bonus:hover span{
 	width: auto;
 	padding-right: .5em;
 }
 .jobListFeatures .txt{ display:none; }
+.companyLogo{
+	height: 0;
+	padding-bottom: 25%;
+	position: relative;
+}
+.companyLogo .logoBlock{
+	position: absolute;
+	width: 90%;
+	height: 90%;
+	border:1px solid #9d9d9d;
+	font-size: 0;
+}
+.companyLogo .logoBlock:before{
+	content:'';
+	display:inline-block;
+	height: 100%;
+	width: 1px;
+	vertical-align: middle;
+	margin-right: -1px;
+}
+.companyLogo .logoBlock img{
+	display:inline-block;
+	vertical-align:middle;
+}
 @media screen and (min-width:768px){
 	/* .jobListFeatures *{ outline:1px solid #f00; } */
 	.jobDetailInfo .jobListFeatures{
