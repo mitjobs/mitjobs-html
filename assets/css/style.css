@@ -366,8 +366,8 @@ footer .footerOurAdvantage .btn{
     left: 1.3em;
     padding-left: 10px;
     top: 3px;
-    line-height: 15px;
 }
+.jobListItem .jobListFeatures .bonus ul{line-height: 15px;}
 .jobListFeatures .bonus ul:before{
 	content:'';
 	width: 0;
